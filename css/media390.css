@@ -1,0 +1,164 @@
+        body {
+            width: 390px;
+        }
+        
+        header {
+            background-color: #fff;
+        }
+        
+        .navbar {
+            background-color: red;
+            width: 390px;
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 80%;
+            height: 100%;
+            display: none;
+        }
+        
+        .sticky-header {
+            position: relative;
+        }
+        
+        .centered {
+            width: 356px;
+        }
+        
+        #mobil-centered {
+            background-color: #fff;
+            overflow-y: hidden;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        
+        #mobil-centered::-webkit-scrollbar {
+            display: none;
+        }
+        
+        .header-container {
+            padding: 5px 0 3px;
+            background-color: #fff;
+        }
+        
+        .header-categories-row {
+            background-color: #fff;
+            flex-wrap: nowrap;
+        }
+        
+        .header-category {
+            width: max-content;
+            border: 1px solid rgb(216, 211, 211);
+            box-sizing: border-box;
+            padding: 10px 14px;
+            border-radius: 7px;
+            background-color: #fff;
+            margin: 10px 5px 10px;
+        }
+        
+        .header-category a {
+            display: flex;
+        }
+        
+        .header-category-icon {
+            border: none;
+            width: 20px;
+            height: 16px;
+            background-size: 100% 100%;
+            border-radius: 0%;
+            margin: 0;
+        }
+        
+        .header-category:hover .header-category-icon {
+            border: none;
+        }
+        
+        .header-category-span {
+            width: max-content;
+            height: auto;
+            margin-left: 7px;
+        }
+        
+        .elan-data {
+            background-color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .elan-header {
+            height: 45px;
+            padding: 0 5px;
+        }
+        
+        .elan-header-rek {
+            display: none;
+        }
+        
+        .elan-header-h2 {
+            color: black;
+            font-weight: 100;
+            font-size: 15px;
+        }
+        
+        .elan-header-link {
+            font-size: 15px;
+            font-weight: 500;
+            color: #2289f8;
+        }
+        
+        .product {
+            width: 168px;
+            height: 205px;
+            margin: 10px 5px 0;
+        }
+        
+        .product-top {
+            height: 130px;
+        }
+        
+        .fetured-icon,
+        .vidded-icon {
+            width: 14px;
+            height: 12px;
+        }
+        
+        .product-paid:after {
+            width: 57px;
+            height: 18px;
+            right: 90px;
+        }
+        
+        .hamisini-goster {
+            display: none;
+        }
+        
+        .popular-requests-section {
+            display: none;
+        }
+        
+        .footer-regions {
+            display: none;
+        }
+        
+        .links-sites {
+            display: none;
+        }
+        
+        .footer {
+            background-color: #f6f7f8;
+        }
+        
+        .footer-top-link {
+            padding: 25px 0;
+        }
+        
+        .footer-top-link>a {
+            display: block;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: #212c3a;
+        }
+        
+        .side {
+            width: 356px;
+        }
